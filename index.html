@@ -17,7 +17,7 @@
       <img src="images/dog-tales-logo.svg" alt="" class="logo">
       <h1 class="yotta pad-t pad-1-2 dosis">Dog Tales</h1>
     </div>
-    <nav class="unit xs-1 s-1 m-2-3 l-2-3 nav pad-t" role="nav">
+    <nav class="unit xs-1 s-1 m-2-3 l-2-3 nav pad-t" role="navigation">
       <ul class="text-right list-group">
         <li><a href="index.html" class="island-1-2">Home</a></li>
         <li><a href="rescues.html" class="island-1-2">Our Rescues</a></li>
@@ -26,46 +26,98 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section class="yellow">
-      <img src="images/lab.png" alt="" class="lab img-flex pad-t push">
-      <h2 class="tena dosis text-center">Dog Tails</h2>
-      <article class="island">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
-    </section>
+  <main role="main">
     <div class="cream">
-      <img src="images/lab.png" alt="" class="lab img-flex pad-t push">
-      <h2 class="tena dosis text-center">About Us</h2>
-      <p class="island">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="yellow">
-      <h2 class="tena dosis text-center">Adobt or foster</h2>
-      <img src="images/lab.png" alt="" class="lab img-flex pad-t">
-      <h4 class="text-center">Roger</h4>
-      <p class="island">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <a href="adopt.html" class-"btn btn-ghost">Adopt</a>
-      <img src="images/lab.png" alt="" class="lab img-flex pad-t">
-      <h4 class="text-center">Roger</h4>
-      <p class="island">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <a href="adopt.html" class-"btn btn-ghost">Adopt</a>
-    </div>
-    <div class="cream">
-      <img src="images/lab.png" alt="" class="lab img-flex pad-t">
-      <img src="images/lab.png" alt="" class="lab img-flex pad-t">
-    </div>
-    <div class="yellow">
-      <h2 class="tena dosis text-center">Community</h2>
-      <p class="island">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-  </main>
-  <footer>
-    <nav class="unit xs-1 s-1 m-2-3 l-2-3 nav pad-t">
-      <ul class="text-right list-group">
-        <li><a href="index.html" class="island-1-2">Home</a></li>
-        <li><a href="rescues.html" class="island-1-2">Our Rescues</a></li>
-        <li><a href="adopt.html" class="island-1-2">Adopt</a></li>
-        <li><a href="#" class="island-1-2">Foster</a></li>
-      </ul>
-    </nav>
-  </footer>
-</body>
-</html>
+      <div class="grid about">
+        <div class="unit s-1 m-1 l-1-2">
+          <img src="images/lab.png" alt="" class="lab img-flex pad-t push">
+        </div>
+        <div class="unit s-1 m-1 l-1-2">
+          <h2 class="tena dosis text-center">About Us</h2>
+          <article class="island push-0">Dog Tales is a world-renowned dog rescue and foster sanctuary set King City, Ontario. Our picturesque location - complete with kilometers of walking trails, therapy pools - is the perfect setting for abused and neglected animals to heal and be rehabilitated while they wait for forever homes. Along with medical care, our team provides all of the love, attention and training that our rescues need to recover from their difficult pasts, so that they can move on to permanent, loving homes, which most do. For the rest, Dog Tales is home for as long as they need it to be.</article>
+        </div>
+      </div>
+      <!-- adoption and foster section -->
+      <section class="grid text-center">
+        <div class="unit s-1 m-1 l-1">
+          <h2 class="text-center">Adopting and Fostering</h2>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-4">
+          <a class="hover-box block relative crop" href="adopt.html">
+            <div class="embed embed-3by2">
+              <img class="hover-box-img embed-item" src="images/pup.jpg" alt="">
+            </div>
+            <div class="hover-box-caption island-1-4 w-1 absolute">
+              <h2 class="tera push-0 not-bold">Roger</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-4">
+          <a class="hover-box block relative crop" href="adopt.html">
+            <div class="embed embed-3by2">
+              <img class="hover-box-img embed-item" src="images/cocker-spaniel.jpg" alt="">
+            </div>
+            <div class="hover-box-caption island-1-4 w-1 absolute">
+              <h2 class="tera push-0 not-bold">Rosie</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-4">
+          <a class="hover-box block relative crop" href="adopt.html">
+            <div class="embed embed-3by2">
+              <img class="hover-box-img embed-item" src="images/boxer.jpg" alt="">
+            </div>
+            <div class="hover-box-caption island-1-4 w-1 absolute">
+              <h2 class="tera push-0 not-bold">Rex</h2>
+            </div>
+          </a>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-4">
+          <a class="hover-box block relative crop" href="adopt.html">
+            <div class="embed embed-3by2">
+              <img class="hover-box-img embed-item" src="images/old-dog.jpg" alt="">
+            </div>
+            <div class="hover-box-caption island-1-4 w-1 absolute">
+              <h2 class="giga push-0 not-bold">Ruddy</h2>
+            </div>
+          </a>
+        </div>
+
+      </section>
+      <!--end of adotpion section -->
+      <div class="yellow grid">
+        <div class="unit s-1 m-1 l-1">
+          <h2 class="tena dosis text-center">Community</h2>
+        </div>
+        <div class="card unit s-1 m-1 l-1-3 island">
+          <h3 class="text-center">"So happy"</h3>
+          <quote>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</quote>
+          <cite><strong>Dan</strong></cite>
+        </div>
+        <div class="card unit s-1 m-1 l-1-3 island">
+          <h3 class="text-center">"So happy"</h3>
+          <quote>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</quote>
+          <cite><strong>Laura</strong></cite>
+        </div>
+        <div class="card unit s-1 m-1 l-1-3 island">
+          <h3 class="text-center">"So happy"</h3>
+          <quote>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</quote>
+          <cite><strong>Pam</strong></cite>
+        </div>
+      </div>
+    </main>
+    <footer class="pad-t pad-b">
+      <nav class="unit xs-1 s-1 m-2-3 l-2-3 nav pad-b">
+        <ul class="text-right list-group">
+          <li><a href="index.html" class="island-1-2">Home</a></li>
+          <li><a href="rescues.html" class="island-1-2">Our Rescues</a></li>
+          <li><a href="adopt.html" class="island-1-2">Adopt</a></li>
+          <li><a href="#" class="island-1-2">Foster</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+  </html>
