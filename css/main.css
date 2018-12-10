@@ -46,10 +46,11 @@ a:hover {
 }
 
 .btn {
-  background-color: #e9a12d;
-  border: solid 1px #e9a12b;
+  background-color: #17989e;
+  border: solid 1px #17989e;
   border-radius: 5px;
-  align: center;
+  margin-left: 3em;
+  margin-top: 3em;
 }
 
 .lab {
@@ -63,11 +64,6 @@ a:hover {
 
 .cream {
   background-color: #f9f7f3;
-}
-
-.img-flex {
-  display: block;
-  width: 100%;
 }
 
 .hover-box {
@@ -103,6 +99,11 @@ a:hover {
 
 .card {
   display: inline-block;
+}
+
+form {
+  margin: 0;
+  padding: 0;
 }
 
 @media only screen and (min-width: 60em) {
