@@ -55,6 +55,11 @@ a:hover {
   margin-top: 3em;
 }
 
+.btn-2 {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
 .lab {
   width: 320px;
   overflow: hidden;
